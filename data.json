@@ -1,0 +1,9 @@
+{
+  "user": {
+    "name": "Alice",
+    "details": {
+      "age": 25,
+      "city": "NY"
+    }
+  }
+}
