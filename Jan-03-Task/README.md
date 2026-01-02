@@ -2,11 +2,6 @@
 
 ---
 
-## Overview
-
-This README documents **two practical tasks** assigned by the manager, covering **Kubernetes Jobs** and **Docker bind mounts**.
-It includes **problem statements, complete workflows, commands, explanations, and deliverables** .
----
 
 #  Question 2  
 ## Job (Run to Completion)
