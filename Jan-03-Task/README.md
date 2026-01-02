@@ -28,8 +28,9 @@ spec:
       restartPolicy: Never
       containers:
       - name: worker
-        image: busybox
-        command: ['sh', '-c', 'echo hello from job && sleep 10']
+        image: busybox:latest
+        imagePullPolicy: IfNotPresent
+        command: ["sh", "-c", "echo hello from job && sleep 10"]
   backoffLimit: 2
 ```
 
