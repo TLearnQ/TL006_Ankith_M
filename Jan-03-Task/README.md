@@ -1,4 +1,3 @@
-# 📘 README
 ## Kubernetes Job & Docker Bind Mount – Complete Workflow
 
 ---
@@ -10,7 +9,7 @@ It includes **problem statements, complete workflows, commands, explanations, an
 
 ---
 
-# ✅ Question 2  
+#  Question 2  
 ## Job (Run to Completion)
 
 ---
@@ -104,21 +103,23 @@ kubectl logs job/once-job
 kubectl delete job once-job
 kubectl apply -f once-job.yaml
 ```
+<br>
+<br>
 
 ---
 
-# ✅ Question 4  
+#  Question 4  
 ## Editing Static Page Content without Rebuilding Image
 
 ---
 
-## Scenario (As Given)
+## Scenario 
 
 A static webpage hosted in Docker contains spelling errors. Instead of rebuilding the image repeatedly, a bind mount is used to edit the page live.
 
 ---
 
-## Tasks (As Given)
+## Tasks 
 
 1. Run nginx/httpd container using bind mount  
 2. Edit HTML file locally  
@@ -210,7 +211,7 @@ docker run -d   --name web-demo   -p 8080:80   -v $(pwd):/usr/share/nginx/html  
 
 ---
 
-## Short Explanation (5–6 Lines)
+## Short Explanation 
 
 This task demonstrates Docker bind mounts to update static webpage content without rebuilding the image. Unlike COPY, which embeds files at build time, bind mounts allow live editing at runtime. This is useful during development and debugging as changes appear instantly. However, bind mounts reduce immutability, which is important in production. Hence, development favors flexibility while production favors immutable images.
 
@@ -220,4 +221,3 @@ This task demonstrates Docker bind mounts to update static webpage content witho
 
 - Question 2 demonstrates Kubernetes Jobs for run-to-completion workloads
 - Question 4 demonstrates Docker bind mounts for live content editing
-- Both tasks represent real-world DevOps workflows
