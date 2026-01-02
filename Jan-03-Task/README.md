@@ -5,8 +5,7 @@
 ## Overview
 
 This README documents **two practical tasks** assigned by the manager, covering **Kubernetes Jobs** and **Docker bind mounts**.
-It includes **problem statements, complete workflows, commands, explanations, and deliverables** in a single file.
-
+It includes **problem statements, complete workflows, commands, explanations, and deliverables** .
 ---
 
 #  Question 2  
@@ -104,6 +103,10 @@ kubectl logs job/once-job
 kubectl delete job once-job
 kubectl apply -f once-job.yaml
 ```
+
+### Screenshot
+<img width="1312" height="915" alt="Screenshot 2026-01-02 202952" src="https://github.com/user-attachments/assets/5d0de60c-ace5-454a-ad5e-b475f9c28a1f" />
+
 <br>
 <br>
 
@@ -169,6 +172,11 @@ nano index.html
 docker run -d   --name web-demo   -p 8080:80   -v $(pwd):/usr/share/nginx/html   nginx
 ```
 
+### Open Browser
+```bash
+http://localhost:8080
+```
+
 ### Edit File & Refresh Browser
 
 - Edit index.html locally
@@ -205,10 +213,8 @@ docker run -d   --name web-demo   -p 8080:80   -v $(pwd):/usr/share/nginx/html  
 ---
 
 ## Deliverables
-
-- Commands used
-- Before and after screenshots
-- Working container demo
+<img width="1902" height="1089" alt="Screenshot 2026-01-02 205244" src="https://github.com/user-attachments/assets/c4d39b05-4449-4988-82ad-1ced4228ce82" />
+<img width="1919" height="1074" alt="Screenshot 2026-01-02 205332" src="https://github.com/user-attachments/assets/2eefb922-509a-43e1-bd8c-ba417541c4cb" />
 
 ---
 
